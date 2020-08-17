@@ -1,0 +1,85 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "hexgrts",
+  "description": "Using the Generalised Random Tesselation Stratified on a\n    hexagonal grid.",
+  "name": "hexgrts: GRTS on a Hexagonal Grid",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.0.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Thierry",
+      "familyName": "Onkelinx",
+      "email": "thierry.onkelinx@inbo.be",
+      "@id": "https://orcid.org/0000-0001-8804-4216"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": [
+    {
+      "@type": "Organization",
+      "name": "Research Institute for Nature and Forest",
+      "email": "info@inbo.be"
+    }
+  ],
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Research Institute for Nature and Forest",
+      "email": "info@inbo.be"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Thierry",
+      "familyName": "Onkelinx",
+      "email": "thierry.onkelinx@inbo.be",
+      "@id": "https://orcid.org/0000-0001-8804-4216"
+    }
+  ],
+  "softwareSuggestions": [],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "assertthat",
+      "name": "assertthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=assertthat"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "sf",
+      "name": "sf",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=sf"
+    }
+  ],
+  "codeRepository": "https://github.com/thierryo/hexgrts",
+  "releaseNotes": "https://github.com/thierryo/hexgrts/blob/master/NEWS.md",
+  "fileSize": "4.959KB",
+  "contIntegration": "https://codecov.io/gh/inbo/hexgrts?branch=master",
+  "developmentStatus": ["https://www.repostatus.org/#concept", "https://www.tidyverse.org/lifecycle/#experimental"],
+  "relatedLink": "https://thierryo.github.io/hexgrts",
+  "issueTracker": "https://github.com/thierryo/hexgrts/issues"
+}
